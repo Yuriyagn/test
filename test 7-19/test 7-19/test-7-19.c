@@ -220,58 +220,58 @@
 
 
 //猜数字游戏
-//void game()
-//{
-//	int ret = 0;
-//	int b = rand() % 100 + 1;
-//	printf("请输入一个数字\n");
-//
-//	while (1)
-//	{
-//		scanf("%d", &ret);
-//		if (ret < b)
-//			printf("猜小了\n");
-//		else if (ret > b)
-//			printf("猜大了\n");
-//		else
-//		{
-//			printf("猜对了\n");
-//			break;
-//		}
-//	}
-//}
-//
-//void meanu()
-//{
-//	printf("****************************************\n");
-//	printf("******* 1.play       0.exit     ********\n");
-//	printf("****************************************\n");
-//	printf("请问你是否开始游戏\n");
-//}
-//
-//int main()
-//{
-//	int a = 0;
-//	do
-//	{
-//		meanu();
-//		srand((unsigned int)time(NULL));
-//		scanf("%d", &a);
-//		switch (a)
-//		{
-//		case 1:
-//			game();
-//			break;
-//		case 0:
-//			printf("退出游戏");
-//			break;
-//		default:
-//			printf("请输入正确的数字\n");
-//		}
-//	} while (a);
-//	
-//	return 0;
-//}
+void game()
+{
+	int ret = 0;
+	int b = rand();
+	printf("请输入一个数字\n");
+
+	while (1)
+	{
+		scanf("%d", &ret);
+		if (ret < b)
+			printf("猜小了\n");
+		else if (ret > b)
+			printf("猜大了\n");
+		else
+		{
+			printf("猜对了\n");
+			break;
+		}
+	}
+}
+
+void meanu()
+{
+	printf("****************************************\n");
+	printf("******* 1.play       0.exit     ********\n");
+	printf("****************************************\n");
+	printf("请问你是否开始游戏\n");
+}
+
+int main()
+{
+	int a = 0;
+	do
+	{
+		meanu();
+		srand((unsigned int)time(NULL));
+		scanf("%d", &a);
+		switch (a)
+		{
+		case 1:
+			game();
+			break;
+		case 0:
+			printf("退出游戏");
+			break;
+		default:
+			printf("请输入正确的数字\n");
+		}
+	} while (a);
+	
+	return 0;
+}
 
 
 

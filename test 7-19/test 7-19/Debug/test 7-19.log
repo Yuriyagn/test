@@ -1,2 +1,5 @@
 ﻿  test-7-19.c
-  test 7-19.vcxproj -> C:\Users\yuri\祈霜。。。织风\C\test 7-19\Debug\test 7-19.exe
+c:\users\yuri\desktop\github存储\test\test 7-19\test 7-19\test-7-19.c(226): warning C4013: “rand”未定义；假设外部返回 int
+c:\users\yuri\desktop\github存储\test\test 7-19\test 7-19\test-7-19.c(258): warning C4013: “srand”未定义；假设外部返回 int
+c:\users\yuri\desktop\github存储\test\test 7-19\test 7-19\test-7-19.c(258): warning C4013: “time”未定义；假设外部返回 int
+  test 7-19.vcxproj -> C:\Users\yuri\Desktop\github存储\test\test 7-19\Debug\test 7-19.exe
