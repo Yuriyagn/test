@@ -190,6 +190,9 @@ def hangman_with_hints(secret_word):
     available_letters.append(get_available_letters(letters_guessed)) # 建立可供使用的单词防止其他情况
     print("您现在有" + str(num_guess) + "次失败的机会\n"+ "提示：该单词有"+str(len(secret_word))+ "个字母\n"+"可以使用*来点提示哦")
     while(True):
+     if is_word_guessed(secret_word, letters_guessed): # 判断是否猜完
+            print("恭喜你，猜对了O(∩_∩)O~ 答案是：" + secret_word)
+            break
         if rascal == 3:
             print("不好好玩是吧，再见！Σ(☉▽☉")
             break
