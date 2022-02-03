@@ -1,1 +1,1 @@
-这里是我学习C语言，Python的一个记录
+C，Python
